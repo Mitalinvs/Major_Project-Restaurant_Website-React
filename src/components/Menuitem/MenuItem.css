@@ -18,7 +18,7 @@
 }
 
 .app__menuitem-name {
-    flex: 1;
+    flex: 1;                /*to let title take all space if its long*/
 }
 
 .app__menuitem-dash {

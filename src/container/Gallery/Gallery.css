@@ -48,14 +48,14 @@
     margin-right: 2rem;
 }
 
-.gallery__image-icon {
+/* .gallery__image-icon {
     position: absolute;
     color: #fff;
     font-size: 2rem;
     opacity: 0;
     transition: .5s ease;
     cursor: pointer;
-}
+} */
 
 .app__gallery-images_card img {
     width: 100%;
@@ -69,9 +69,9 @@
     opacity: .35;
 }
 
-.app__gallery-images_card:hover .gallery__image-icon {
+/* .app__gallery-images_card:hover .gallery__image-icon {
     opacity: 1;
-}
+} */
 
 .app__gallery-images_arrows {
     width: 100%;
@@ -80,7 +80,7 @@
     align-items: center;
 
     padding: 0 1rem;
-    position: absolute;
+    position: absolute;                 /*for arrows to be 5% bottom of images*/
     bottom: 5%;
 }
 

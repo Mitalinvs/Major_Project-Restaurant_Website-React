@@ -11,19 +11,19 @@ const Intro = () => {
   return (
     <div className="app__video">
       <video
-        ref={vidRef}
-        src={meal}
+        ref={vidRef}            //vidRef is a reference object that allows you to interact with the underlying DOM element (in this case, a video element) directly
+        src={meal}  
         type="video/mp4"
         loop
         controls={false}
         muted
       />
-      <div className="app__video-overlay flex__center">
+      <div className="app__video-overlay flex__center" id="intro">
         <div
           className="app__video-overlay_circle flex__center"
           onClick={() => {
-            setPlayVideo(!playVideo);
-            if (playVideo) {
+            setPlayVideo(!playVideo);       //on click change setPlayVideo value to its opposite
+            if (playVideo) {                //video was playing before click
               vidRef.current.pause();
             } else {
               vidRef.current.play();
