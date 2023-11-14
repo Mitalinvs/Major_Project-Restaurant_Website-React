@@ -5,7 +5,7 @@ import images from '../../constants/images';
 import './Navbar.css';
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = React.useState(false);
+  const [toggleMenu, setToggleMenu] = React.useState(false);            //for dynamic changes on click
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
@@ -19,13 +19,13 @@ const Navbar = () => {
         <li className="p__opensans"><a href="#contact">Contact</a></li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">Log In / Registration</a>
+        <a href="#login" className="p__opensans">Register</a>
         <div />
         <a href="/" className="p__opensans">Book Table</a>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
-        {toggleMenu && (
+        {toggleMenu && (    //if toggleMenu is true then show ()
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="app__navbar-smallscreen_links">

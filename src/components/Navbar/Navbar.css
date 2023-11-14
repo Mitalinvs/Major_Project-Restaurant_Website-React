@@ -1,8 +1,8 @@
 .app__navbar {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between;     /*in flex container: items are evenly spaced along the horizontal axis,*/
+    align-items: center;                /*and they are vertically centered within the container.*/
     background: var(--color-black);
 
     padding: 1rem 2rem;
@@ -19,16 +19,16 @@
 }
 
 .app__navbar-links {
-    flex: 1;
+    flex: 1;                    /*to take up all available space along the main axis, both in terms of growing and shrinking.*/
     display: flex;
-    justify-content: center;
+    justify-content: center;    /*space before the first child and after the last child will be equal, and the collective content will be centered within the container.*/
     align-items: center;
 
     list-style: none;
 }
 
 .app__navbar-links li {
-    margin: 0 1rem;
+    margin: 0 1rem;             /* 0: top, bottom ; 1: left, right */
     cursor: pointer;
 }
 
@@ -72,7 +72,7 @@
     transition: .5s ease;
 
     flex-direction: column;
-    z-index: 5;
+    z-index: 5;                     /*for overlay to be over actual page: indicates stacking order*/
 }
 
 .app__navbar-smallscreen_overlay .overlay__close {
@@ -108,7 +108,7 @@
     }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1150px) {         /*applies styles only when the screen width is equal to or less than 1150 pixels.*/
     .app__navbar-links {
         display: none;
     }

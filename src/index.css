@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
+/*basic fonts and colors*/
 :root {
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;
@@ -11,7 +12,7 @@
   --color-grey: #AAAAAA;
   --color-white: #FFFFFF;
 }
-
+/*reset padding, margin for all elements*/
 * {
   box-sizing: border-box;
   padding: 0;

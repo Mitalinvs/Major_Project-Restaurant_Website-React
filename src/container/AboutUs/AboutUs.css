@@ -4,7 +4,7 @@
 
 .app__aboutus-overlay {
     position: absolute;
-    inset: 0;
+    inset: 0;               /*defines the logical block and inline start and end offsets of an element*/
 }
 
 .app__aboutus-overlay img {
