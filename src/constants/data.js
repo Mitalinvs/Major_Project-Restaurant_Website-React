@@ -2,80 +2,80 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Tempura Temptations',
+    price: '450/-',
+    tags: 'Coastal Charms, Exotic Eats, Olive Oasis',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Caprese Cloud Bites',
+    price: '550/-',
+    tags: 'Crispy Delights, Asian Fusion, Tempura Twist',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Satay Skewer Symphony',
+    price: '500/-',
+    tags: 'Luxe Bites, Truffle Treasures, Crispy Elegance',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Crispy Calamari Carnival',
+    price: '400/-',
+    tags: 'Tomato Tantalizers, Basil Bites, Italian Infusion',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Mediterranean Mezze Platter', 
+    price: '1050/-',
+    tags: 'Culinary Crescendo, Flavor Fusion, Gourmet Delights',   
   },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Berry Bliss Refresher',
+    price: '200/-',
+    tags: 'Burst of Berries, Refreshing Delight, Antioxidant Boost',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Tropical Paradise Splash",
+    price: '227/-',
+    tags: 'Exotic Escape, Island Vibes, Tropical Temptation',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Minty Mojito Sparkler',
+    price: '180/-',
+    tags: 'Cool and Crisp, Minty Freshness, Summer Sipper',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Cucumber Melon Quencher ',
+    price: '250/-',
+    tags: 'Hydration Heaven, Cucumber Coolness, Melon Infusion',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-  },
+    title: 'Ginger Zinger Fizz ',
+    price: '230/-',
+    tags: 'Spicy Elegance, Ginger Zing, Fizz Finesse',
+  },
 ];
 
 const awards = [
   {
     imgUrl: images.award02,
     title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: "Michelin's nod to exceptional, affordable dining experiences worldwide.",
   },
   {
     imgUrl: images.award01,
     title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Celebrating emerging talent, the Rising Star Award shines brightly.',
   },
   {
     imgUrl: images.award05,
     title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Honors excellence in culinary and service.',
   },
   {
     imgUrl: images.award03,
     title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Recognizes culinary brilliance and innovation triumphs.',
   },
 ];
 
