@@ -34,7 +34,7 @@ const Bookt = () => (
           <input type="time" id="time" name="time" class="in" required/><br></br>
         </div>
         <div class="inner2">
-          <label for="guests" class="na"><p className="p__opensans">No of Guests: &emsp;&ensp;</p></label>
+          <label for="guests" class="na"><p className="p__opensans">#Guests: &emsp;&ensp;</p></label>
           <select id="guests" name="guests" required>
             <option value="1">1</option>
             <option value="2">2</option>
