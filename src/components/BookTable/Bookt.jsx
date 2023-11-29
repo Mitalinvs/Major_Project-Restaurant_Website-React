@@ -10,8 +10,7 @@ const Bookt = () => (
         <h1 className="headtext__cormorant">Table Reservation</h1>
         <br></br>
       </div>
-      {/* <form action="" method="post"> */}
-      <form>
+      <form action="" method="post">
         <br></br>
         <div class="inner">
             <label for="name" class="na"><p className="p__opensans">Name: &nbsp;</p></label>
